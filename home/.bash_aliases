@@ -2,7 +2,7 @@
 
 alias ln='ln -s'
 alias d='ls -lgh --group-directories-first --color --time-style=long-iso'
-alias da ='ls -lgha --group-directories-first --color --time-style=long-iso'
+alias da='ls -lgha --group-directories-first --color --time-style=long-iso'
 
 alias android='~/apps/android-studio/bin/studio.sh'
 
