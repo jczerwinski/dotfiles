@@ -91,7 +91,7 @@ export LC_COLLATE="C"
 export PATH=$PATH:~/bin
 export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
+export LEDGER_FILE=~/workspace/finance/.ledger
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
