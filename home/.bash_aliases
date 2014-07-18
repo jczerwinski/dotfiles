@@ -6,7 +6,6 @@ alias da='ls -lgha --group-directories-first --color --time-style=long-iso'
 
 alias android='~/apps/android-studio/bin/studio.sh'
 
-
 alias refresh='source ~/.bashrc'
 
 # Add an "alert" alias for long running commands.  Use like so:

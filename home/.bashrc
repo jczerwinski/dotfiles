@@ -88,9 +88,8 @@ fi
 export EDITOR=sublime-text
 export VISUAL=sublime-text
 export LC_COLLATE="C"
-export PATH=$PATH:~/bin
+export PATH=$PATH:~/bin:$HOME/.rvm/bin
 export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
-export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
