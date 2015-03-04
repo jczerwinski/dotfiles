@@ -74,6 +74,10 @@ esac
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
+# First, delete all existing aliases.
+unalias -a
+
+
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
@@ -85,8 +89,8 @@ if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 # Environment Variables
-export EDITOR=sublime-text
-export VISUAL=sublime-text
+export EDITOR=subl
+export VISUAL=subl
 export LC_COLLATE="C"
 export PATH=$PATH:~/bin:$HOME/.rvm/bin
 export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
