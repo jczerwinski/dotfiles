@@ -92,7 +92,7 @@ fi
 export EDITOR=subl
 export VISUAL=subl
 export LC_COLLATE="C"
-export PATH=$PATH:~/bin:$HOME/.rvm/bin
+export PATH=$PATH:~/bin:$HOME/.rvm/bin:/usr/local/texlive/2015/bin/x86_64-linux
 export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
@@ -133,10 +133,10 @@ cb() {
 # Aliases / functions leveraging the cb() function
 # ------------------------------------------------
 # Copy contents of a file
-function cbf() { cat "$1" | cb; }  
+function cbf() { cat "$1" | cb; }
 # Copy SSH public key
-alias cbssh="cbf ~/.ssh/id_rsa.pub"  
+alias cbssh="cbf ~/.ssh/id_rsa.pub"
 # Copy current working directory
-alias cbwd="pwd | cb"  
+alias cbwd="pwd | cb"
 # Copy most recent command in bash history
-alias cbhs="cat $HISTFILE | tail -n 1 | cb"  
+alias cbhs="cat $HISTFILE | tail -n 1 | cb"
