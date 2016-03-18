@@ -98,7 +98,7 @@ export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
 # pyenv setup
 export PYENV_ROOT="$HOME/workspace/pyenv"
 export PATH=$PATH:$PYENV_ROOT/bin
-echo 'eval "$(pyenv init -)"'
+eval "$(pyenv init -)"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
