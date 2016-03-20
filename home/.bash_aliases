@@ -2,7 +2,7 @@
 
 alias ln='ln -s'
 alias d='ls --group-directories-first --color'
-alias da='ls -h --group-directories-first --color'
+alias da='ls -a --group-directories-first --color'
 alias dd='ls -lgh --group-directories-first --color --time-style=long-iso'
 alias dda='ls -lgha --group-directories-first --color --time-style=long-iso'
 
